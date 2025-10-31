@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Tải Phần Mềm</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-download"></i> Trang Tải Phần Mềm</h1>
+            <p>Kho tài nguyên phần mềm đa dạng cho mọi nhu cầu</p>
+            <div class="source-links">
+                <a href="mcs_window.html" target="_blank" class="source-link">
+                    <i class="fab fa-windows"></i> Windows Source
+                </a>
+                <a href="mcs_office.html" target="_blank" class="source-link">
+                    <i class="fas fa-file-word"></i> Office Source
+                </a>
+                <a href="adobe_software.html" target="_blank" class="source-link">
+                    <i class="fas fa-paint-brush"></i> Adobe Source
+                </a>
+                <a href="software.html" target="_blank" class="source-link">
+                    <i class="fas fa-tools"></i> Software Source
+                </a>
+            </div>
+        </header>
+
+        <div class="search-section">
+            <div class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="text" id="searchInput" placeholder="Tìm kiếm phần mềm...">
+            </div>
+        </div>
+
+        <div class="categories">
+            <div class="category-card" data-category="windows">
+                <div class="category-icon">
+                    <i class="fab fa-windows"></i>
+                </div>
+                <h3>Windows</h3>
+                <p>Hệ điều hành Windows các phiên bản</p>
+                <span class="software-count">0 phần mềm</span>
+            </div>
+
+            <div class="category-card" data-category="office">
+                <div class="category-icon">
+                    <i class="fas fa-file-word"></i>
+                </div>
+                <h3>Microsoft Office</h3>
+                <p>Bộ ứng dụng văn phòng Microsoft</p>
+                <span class="software-count">0 phần mềm</span>
+            </div>
+
+            <div class="category-card" data-category="graphics">
+                <div class="category-icon">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <h3>Phần Mềm Đồ Họa</h3>
+                <p>Adobe, AutoCAD, SolidWorks, SketchUp...</p>
+                <span class="software-count">0 phần mềm</span>
+            </div>
+
+            <div class="category-card" data-category="tools">
+                <div class="category-icon">
+                    <i class="fas fa-tools"></i>
+                </div>
+                <h3>Tools Hỗ Trợ</h3>
+                <p>Các công cụ tiện ích và hỗ trợ</p>
+                <span class="software-count">0 phần mềm</span>
+            </div>
+        </div>
+
+        <div class="software-list" id="softwareList">
+            <!-- Danh sách phần mềm sẽ được load từ JavaScript -->
+        </div>
+    </div>
+
+    <!-- Modal hiển thị chi tiết phần mềm -->
+    <div class="modal" id="softwareModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle"></h2>
+                <span class="close" id="closeModal">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="software-info">
+                    <div class="software-icon">
+                        <i id="modalIcon"></i>
+                    </div>
+                    <div class="software-details">
+                        <p id="modalDescription"></p>
+                        <div class="versions-section">
+                            <h3>Các phiên bản có sẵn:</h3>
+                            <div id="versionsList"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="software-data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
