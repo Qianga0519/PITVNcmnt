@@ -355,6 +355,7 @@ header p {
 }
 
 .version-size {
+    width: 15%;
     background: #667eea;
     color: white;
     padding: 2px 8px;

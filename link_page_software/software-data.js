@@ -12,7 +12,7 @@ const softwareData = [
             //AIO Windows 11 Version 25H2 Build 26200.5074
             {
                 name: 'AIO Windows 11 Version 25H2 Build 26200.5074',
-                size: '5.2 GB',
+                size: '15.2 GB',
                 editions: [
                     //Home, Pro, Edu, Workstation, Enterprise, IoT 29 August 2024
                     {
@@ -1618,47 +1618,283 @@ const softwareData = [
     // Windows 8 MSDN 15 August 2012 (Không update Không khuyến nghị dùng)
     //____________________________END_WINDOW_8________________________________
     //____________________________WINDOW_7_____________________________________
-    // {
-    //     id: 'windows7',
-    //     name: 'Windows 7',
-    //     description: 'Hệ điều hành Windows 7 từ Quang Huy Blog PITVN',
-    //     category: 'windows',
-    //     icon: 'fab fa-windows',
-    //     versions: [
-    //         {
-    //             name: 'Ghost Windows 7 Ultimate Full Soft & Driver Update 2024',
-    //             size: '5.8 GB',
-    //             links: [
-    //                 {
-    //                     name: 'PITVN Google Drive',
-    //                     url: 'https://drive.google.com/drive/folders/1example_windows_aio',
-    //                     icon: 'fab fa-google-drive'
-    //                 },
-    //                 {
-    //                     name: 'PITVN Google Drive',
-    //                     url: 'https://drive.google.com/drive/folders/1example',
-    //                     icon: 'fab fa-google-drive'
-    //                 },
-    //                 {
-    //                     name: 'PITVN MediaFire',
-    //                     url: 'https://www.mediafire.com/folder/pitvn_ghost_win7_ultimate',
-    //                     icon: 'fas fa-download'
-    //                 }
-    //             ]
-    //         },
-    //         {
-    //             name: 'Ghost Windows 7 Ultimate Full Soft, Full Driver cập nhật tháng 8.2023',
-    //             size: '5.5 GB',
-    //             links: [
-    //                 {
-    //                     name: 'PITVN Google Drive',
-    //                     url: 'https://drive.google.com/drive/folders/1example_windows_aio',
-    //                     icon: 'fab fa-google-drive'
-    //                 }
-    //             ]
-    //         }
-    //     ]
-    // },
+    {
+        id: 'windows7',
+        name: 'Windows 7',
+        description: 'Hệ điều hành Windows 7 từ Quang Huy Blog PITVN',
+        category: 'windows',
+        icon: 'fab fa-windows',
+        versions: [
+            //Windows 7 SP1final updates
+            {
+                name: 'Windows 7 SP1final updates',
+                size: '5.2 GB',
+                editions: [
+                    //Home Premium 64bit
+                    {
+                        name: 'Home Premium',
+                        description: '64bit',
+                        size: '4.8 GB',
+                        links: [
+                            {
+                                name: 'PITVN Google Drive',
+                                url: 'https://www.google.com/url?q=https://drive.google.com/file/d/1UhDdD0ww5Es_QKz6PU2qJfpEuGyzhVb_/view?usp%3Ddrivesdk&sa=D&source=editors&ust=1757854453401899&usg=AOvVaw02FqEnUiemeb9HVAgi-fID',
+                                icon: 'fab fa-google-drive'
+                            },
+                            {
+                                name: 'PITVN Google Drive',
+                                url: 'https://www.google.com/url?q=https://drive.google.com/file/d/1TryC_P0bWl4887i2A6n-pgy4SpvzcCs-/view?usp%3Ddrivesdk&sa=D&source=editors&ust=1757854453401850&usg=AOvVaw08XgPs0ju1ln_NabyO5GmN',
+                                icon: 'fab fa-google-drive'
+                            },
+                            {
+                                name: 'PITVN Onedrive',
+                                url: 'https://www.google.com/url?q=https://icedubai-my.sharepoint.com/:u:/g/personal/billgates_icedubai_onmicrosoft_com/Ef9QtZHteXRNlN-JJJrBzF8Bg5QQlcSPaHgNFpH3NzpmWw&sa=D&source=editors&ust=1757854453401790&usg=AOvVaw0MJSsh4Ko2_6huzqTtvgUw',
+                                icon: 'fa-solid fa-cloud'
+                            },
+                            {
+                                name: 'PITVN Onedrive',
+                                url: 'https://www.google.com/url?q=https://glennsferryschools-my.sharepoint.com/:u:/g/personal/billgates_glennsferryschools_onmicrosoft_com/EdiSj3LUf3dMqhTpGQ_BSDwBukpQeTplfGuWxE9UI4kDBQ&sa=D&source=editors&ust=1757854453401717&usg=AOvVaw32N0B_E7lm7_JO-xMy5RdZ',
+                                icon: 'fa-solid fa-cloud'
+                            }
+                        ]
+                    },
+                    //Home Premium 32bit
+                    {
+                        name: 'Home Premium',
+                        description: '32bit',
+                        size: '4.8 GB',
+                        links: [
+                            {
+                                name: 'PITVN Google Drive',
+                                url: 'https://www.google.com/url?q=https://drive.google.com/file/d/18KvcvHG7rZr_KuWimAFUdPF-fJ01qmGP/view?usp%3Ddrivesdk&sa=D&source=editors&ust=1757854453402277&usg=AOvVaw3vzEtte3rwbfRix_ArAUXD',
+                                icon: 'fab fa-google-drive'
+                            },
+                            {
+                                name: 'PITVN Google Drive',
+                                url: 'https://www.google.com/url?q=https://drive.google.com/file/d/1tGMfnD70qSfKbehT_v3kTWFnXMF-LJ1V/view?usp%3Ddrivesdk&sa=D&source=editors&ust=1757854453402230&usg=AOvVaw2leXnsp8SL0MbdmGmzy-fm',
+                                icon: 'fab fa-google-drive'
+                            },
+                            {
+                                name: 'PITVN Onedrive',
+                                url: 'https://www.google.com/url?q=https://icedubai-my.sharepoint.com/:u:/g/personal/billgates_icedubai_onmicrosoft_com/EcmSmjk_Z0VAnYIyAVfLOt0B6EkANl_WbtnIRPF1RPkXHw&sa=D&source=editors&ust=1757854453402178&usg=AOvVaw0EuDVBkLHUnhtgvKGSg1Rq',
+                                icon: 'fa-solid fa-cloud'
+                            },
+                            {
+                                name: 'PITVN Onedrive',
+                                url: 'https://www.google.com/url?q=https://glennsferryschools-my.sharepoint.com/:u:/g/personal/billgates_glennsferryschools_onmicrosoft_com/EenELsH8-jVKqxbMtOdCNv8B1OWpLOnvxg81gsSvJEL1eg&sa=D&source=editors&ust=1757854453402109&usg=AOvVaw3H_kCvJGTE1GXRWRWYRYm-',
+                                icon: 'fa-solid fa-cloud'
+                            }
+                        ]
+                    },
+                    //Professional 64bit
+                    {
+                        name: 'Professional',
+                        description: '64bit',
+                        size: '4.8 GB',
+                        links: [
+                            {
+                                name: 'PITVN Google Drive',
+                                url: 'https://www.google.com/url?q=https://drive.google.com/file/d/1botjw3l2F9cQHc265U7gJFBn-7yWgH-i/view?usp%3Ddrivesdk&sa=D&source=editors&ust=1757854453402614&usg=AOvVaw1zK4NWmWbBvb45dKQ3d6rG',
+                                icon: 'fab fa-google-drive'
+                            },
+                            {
+                                name: 'PITVN Google Drive',
+                                url: 'https://www.google.com/url?q=https://drive.google.com/file/d/1cBwFeZru9enmmUjuznh4nskmxVeeJwLh/view?usp%3Ddrivesdk&sa=D&source=editors&ust=1757854453402569&usg=AOvVaw3RA8yXnNZ2TXPyA6Ne80NX',
+                                icon: 'fab fa-google-drive'
+                            },
+                            {
+                                name: 'PITVN Onedrive',
+                                url: 'https://www.google.com/url?q=https://icedubai-my.sharepoint.com/:u:/g/personal/billgates_icedubai_onmicrosoft_com/EcQATfv7kUREjXZ53GtYeT4BTjg5mVbKI5ql9OOCtWmMXQ&sa=D&source=editors&ust=1757854453402524&usg=AOvVaw2GndVc4h1Hh2uFctba1Ygi',
+                                icon: 'x'
+                            },
+                            {
+                                name: 'PITVN Onedrive',
+                                url: 'https://www.google.com/url?q=https://glennsferryschools-my.sharepoint.com/:u:/g/personal/billgates_glennsferryschools_onmicrosoft_com/EWuC9afAPRpHnZWN9Qw5pg8ByzoSlFwNdxQo5MW7kOIlRw&sa=D&source=editors&ust=1757854453402473&usg=AOvVaw09BgKpr-rseyD28tSlBdTO',
+                                icon: 'fa-solid fa-cloud'
+                            }
+                        ]
+                    },
+                    //Professional 32bit
+                    {
+                        name: 'Professional',
+                        description: '32bit',
+                        size: '4.8 GB',
+                        links: [
+                            {
+                                name: 'PITVN Google Drive',
+                                url: 'https://www.google.com/url?q=https://drive.google.com/file/d/1PFOjqoGdlOf65PsGO-fzvhRJt823dIYp/view?usp%3Ddrivesdk&sa=D&source=editors&ust=1757854453402937&usg=AOvVaw31bf03V514uCByjT124F3Y',
+                                icon: 'fab fa-google-drive'
+                            },
+                            {
+                                name: 'PITVN Google Drive',
+                                url: 'https://www.google.com/url?q=https://drive.google.com/file/d/1xZttCU0gRfKSxh28UlAtye9EKRpvx5oF/view?usp%3Ddrivesdk&sa=D&source=editors&ust=1757854453402893&usg=AOvVaw2wOpPrLE6EE2OGf46eC44C',
+                                icon: 'fab fa-google-drive'
+                            },
+                            {
+                                name: 'PITVN Onedrive',
+                                url: 'https://www.google.com/url?q=https://icedubai-my.sharepoint.com/:u:/g/personal/billgates_icedubai_onmicrosoft_com/EaIcjxgvemxIijyfM8FyBMMBxHhOeFB7lqXU7568HXhHLA&sa=D&source=editors&ust=1757854453402849&usg=AOvVaw0W85qvrvrhDJpAHK66FTyi',
+                                icon: 'fa-solid fa-cloud'
+                            },
+                            {
+                                name: 'PITVN Onedrive',
+                                url: 'https://www.google.com/url?q=https://glennsferryschools-my.sharepoint.com/:u:/g/personal/billgates_glennsferryschools_onmicrosoft_com/EZ-M8GnXsS9HtTr9jSw-PDsB4DhZ6dmcFb2mxcz40tpZXw&sa=D&source=editors&ust=1757854453402798&usg=AOvVaw0L-hTsMyANRYrprcZQaGIx',
+                                icon: 'fa-solid fa-cloud'
+                            }
+                        ]
+                    },
+                    //Ultimate 64bit
+                    {
+                        name: 'Ultimate',
+                        description: '64bit',
+                        size: '4.8 GB',
+                        links: [
+                            {
+                                name: 'PITVN Google Drive',
+                                url: 'https://www.google.com/url?q=https://drive.google.com/file/d/1tam7aJ6b-B0USb8fnP-Ye52ms8rsxcIB/view?usp%3Ddrivesdk&sa=D&source=editors&ust=1757854453403313&usg=AOvVaw1o7h1uxOFneKWMxg0mZy8v',
+                                icon: 'fab fa-google-drive'
+                            },
+                            {
+                                name: 'PITVN Google Drive',
+                                url: 'https://www.google.com/url?q=https://drive.google.com/file/d/1ZzHB2s_R4_y89IeNRQcOco981vSfbYZ0/view?usp%3Ddrivesdk&sa=D&source=editors&ust=1757854453403262&usg=AOvVaw1bu26_dA38hQRwpzTpPSje',
+                                icon: 'fab fa-google-drive'
+                            },
+                            {
+                                name: 'PITVN Onedrive',
+                                url: 'https://www.google.com/url?q=https://icedubai-my.sharepoint.com/:u:/g/personal/billgates_icedubai_onmicrosoft_com/EWq7VCzLowpPrHpdt1X7hrkBUws-I7nLK7_SjnEm5a0BKA&sa=D&source=editors&ust=1757854453403199&usg=AOvVaw0zLdgS-jXV0IwFUa7HU9tr',
+                                icon: 'fa-solid fa-cloud'
+                            },
+                            {
+                                name: 'PITVN Onedrive',
+                                url: 'https://www.google.com/url?q=https://glennsferryschools-my.sharepoint.com/:u:/g/personal/billgates_glennsferryschools_onmicrosoft_com/EWz1DwaDyVdDnaDAPkQ1zWYBXpRMo9N3qjHu3WS-OR7chQ&sa=D&source=editors&ust=1757854453403148&usg=AOvVaw2x90KIXsId5HhcJisCJ6y1',
+                                icon: 'fa-solid fa-cloud'
+                            }
+                        ]
+                    },
+                    //Ultimate 32bit
+                    {
+                        name: 'Ultimate',
+                        description: '32bit',
+                        size: '4.8 GB',
+                        links: [
+                            {
+                                name: 'PITVN Google Drive',
+                                url: 'https://www.google.com/url?q=https://drive.google.com/file/d/13Usi32rS58k2GuL3CTA_yzdIQwUUInzi/view?usp%3Ddrivesdk&sa=D&source=editors&ust=1757854453403694&usg=AOvVaw2ql88fKPI-YKKf_0w7O3wC',
+                                icon: 'fab fa-google-drive'
+                            },
+                            {
+                                name: 'PITVN Google Drive',
+                                url: 'https://www.google.com/url?q=https://drive.google.com/file/d/11oDQpQ54kOSXXb8j_DKL32iNp1hIL5qM/view?usp%3Ddrivesdk&sa=D&source=editors&ust=1757854453403637&usg=AOvVaw3VVhHwuVRGqO2ti8SwR53m',
+                                icon: 'fab fa-google-drive'
+                            },
+                            {
+                                name: 'PITVN Onedrive',
+                                url: 'https://www.google.com/url?q=https://icedubai-my.sharepoint.com/:u:/g/personal/billgates_icedubai_onmicrosoft_com/EXybb_5EBrlIpq5hR_nnI4EB00iwH2iGb5biHSv-dVGjfQ&sa=D&source=editors&ust=1757854453403591&usg=AOvVaw13N0fIi9QHco-3prFq2zT8',
+                                icon: 'fa-solid fa-cloud'
+                            },
+                            {
+                                name: 'PITVN Onedrive',
+                                url: 'https://www.google.com/url?q=https://glennsferryschools-my.sharepoint.com/:u:/g/personal/billgates_glennsferryschools_onmicrosoft_com/EV5Mogl4NolJjQAxUeUvuAsBNvMTwuvVVmz5Y0mHWRHKgQ&sa=D&source=editors&ust=1757854453403533&usg=AOvVaw3ITcKQ4pJnZW4O92kDJAR1',
+                                icon: 'fa-solid fa-cloud'
+                            }
+                        ]
+                    },
+                    //Pro, Ultimate (SP1)Usb 3.0, IE11 (August 2018) 64bit
+                    {
+                        name: 'Pro, Ultimate (SP1)Usb 3.0, IE11 (August 2018)',
+                        description: '64bit',
+                        size: '4.8 GB',
+                        links: [
+                            {
+                                name: 'PITVN Google Drive',
+                                url: 'https://www.google.com/url?q=https://drive.google.com/file/d/1ldDtOoUwmz4q_-BylXpA4kQ17z7cckH1/view?usp%3Ddrivesdk&sa=D&source=editors&ust=1757854453404041&usg=AOvVaw2NnhAGP5641lpC-dOsIGFk',
+                                icon: 'fab fa-google-drive'
+                            },
+                            {
+                                name: 'PITVN Google Drive',
+                                url: 'https://www.google.com/url?q=https://drive.google.com/file/d/1yNXAuCyoWyab1ntwZ665XNDGoCXvtRZF/view?usp%3Ddrivesdk&sa=D&source=editors&ust=1757854453403994&usg=AOvVaw3xUpJZOQt3snTD7wk_9C-r',
+                                icon: 'fab fa-google-drive'
+                            },
+                            {
+                                name: 'PITVN Onedrive',
+                                url: 'https://www.google.com/url?q=https://icedubai-my.sharepoint.com/:u:/g/personal/billgates_icedubai_onmicrosoft_com/EbzZpCGS2lRInDopLXmBYogBewGZ-ZI7LPL3ushIV_WSYw&sa=D&source=editors&ust=1757854453403947&usg=AOvVaw0NlxyEjkV9DxMeJkkCmi0z',
+                                icon: 'fa-solid fa-cloud'
+                            },
+                            {
+                                name: 'PITVN Onedrive',
+                                url: 'https://www.google.com/url?q=https://glennsferryschools-my.sharepoint.com/:u:/g/personal/billgates_glennsferryschools_onmicrosoft_com/EY3inNaEN5BJogUm713Kw8cBrSm8hbP4aATTviwNWjylWw&sa=D&source=editors&ust=1757854453403895&usg=AOvVaw28HmejCwqD8y1mlQy5KXuC',
+                                icon: 'fa-solid fa-cloud'
+                            }
+                        ]
+                    },
+                    //Pro, Ultimate (SP1)Usb 3.0, IE11 (August 2018) 32bit
+                    {
+                        name: 'Pro, Ultimate (SP1)Usb 3.0, IE11 (August 2018)',
+                        description: '32bit',
+                        size: '4.8 GB',
+                        links: [
+                            {
+                                name: 'PITVN Google Drive',
+                                url: 'https://www.google.com/url?q=https://drive.google.com/file/d/1eX3MnxUteTG-4QVEwUa0dECgvoj6wKDR/view?usp%3Ddrivesdk&sa=D&source=editors&ust=1757854453404334&usg=AOvVaw35bwGtEjjyY6ZRwPWVQX9D',
+                                icon: 'fab fa-google-drive'
+                            },
+                            {
+                                name: 'PITVN Google Drive',
+                                url: 'https://www.google.com/url?q=https://drive.google.com/file/d/1Ce-BIOWsN95aJ_aUTOVS_drgp53J4mVd/view?usp%3Ddrivesdk&sa=D&source=editors&ust=1757854453404292&usg=AOvVaw0OZ-yGOJ8ruTiFDzh4P7YA',
+                                icon: 'fab fa-google-drive'
+                            },
+                            {
+                                name: 'PITVN Onedrive',
+                                url: 'https://www.google.com/url?q=https://icedubai-my.sharepoint.com/:u:/g/personal/billgates_icedubai_onmicrosoft_com/EeN8mRAWQD5FnQn9g2m4UigBLY85LCHrm0cagPhpOslVNQ&sa=D&source=editors&ust=1757854453404248&usg=AOvVaw1pWyqccB-66v8Vc6KPjmBI',
+                                icon: 'fa-solid fa-cloud'
+                            },
+                            {
+                                name: 'PITVN Onedrive',
+                                url: 'https://www.google.com/url?q=https://glennsferryschools-my.sharepoint.com/:u:/g/personal/billgates_glennsferryschools_onmicrosoft_com/EfBOraenYYBKg2QGL9yxvIMBeR94mVyV4AIyo3YU0rPjEw&sa=D&source=editors&ust=1757854453404196&usg=AOvVaw36CbF3vlEx0aoonwBbyCnK',
+                                icon: 'fa-solid fa-cloud'
+                            }
+                        ]
+                    }
+                ]
+            },
+            // //Windows 10 Version 22H2 MSDN Build 19045.6216 19 August 2025
+            // {
+            //     name: 'Version 22H2 MSDN Build 19045.6216 19 August 2025',
+            //     size: '5.2 GB',
+            //     editions: [
+            //         //Business (Edu/Enterprise/Pro/Workstations) 64bit
+            //         {
+            //             name: 'Business (Edu/Enterprise/Pro/Workstations)',
+            //             description: '64bit',
+            //             size: '4.8 GB',
+            //             links: [
+            //                 {
+            //                     name: 'PITVN Google Drive',
+            //                     url:'',
+            //                     icon: 'fab fa-google-drive'
+            //                 },
+            //                 {
+            //                      name: 'PITVN Google Drive',
+            //                     url:'',
+            //                     icon: 'fab fa-google-drive'
+            //                 },
+            //                 {
+            //                     name: 'PITVN Onedrive',
+            //                     url: '',
+            //                      icon: 'fa-solid fa-cloud'
+            //                 },
+            //                 {
+            //                     name: 'PITVN Onedrive',
+            //                     url: '',
+            //                      icon: 'fa-solid fa-cloud'
+            //                 }
+            //             ]
+            //         },
+
+            //     ]
+            // },
+
+        ]
+    },
     //____________________________END_WINDOW_7_____________________________________
     //____________________________MICROSOFT_WINDOWS_VISTA__________________________
     //Windows Vista with Service Pack 2 MSDN 11 May 2009
@@ -1679,146 +1915,366 @@ const softwareData = [
     //___________________________END_WINDOW_SERVER______________________
 
 
+    //____________________________MICROSOFT OFFICE_____________________________________
 
     // Microsoft Office - PITVN Community Resources
-    // {
-    //     id: 'office2021',
-    //     name: 'Microsoft Office 2021',
-    //     description: 'Bộ ứng dụng văn phòng Office 2021 từ PITVN Community Resources',
-    //     category: 'office',
-    //     icon: 'fas fa-file-word',s
-    //     versions: [
-    //         {
-    //             name: 'Office 2021 Professional Plus',
-    //             size: '2.8 GB',
-    //             links: [
-    //                 {
-    //                     name: 'PITVN Google Drive',
-    //                     url: 'https://drive.google.com/drive/folders/1example_windows_aio',
-    //                     icon: 'fab fa-google-drive'
-    //                 },
-    //                 {
-    //                     name: 'PITVN Google Drive',
-    //                     url: 'https://drive.google.com/drive/folders/1office2021_pro_plus',
-    //                     icon: 'fab fa-google-drive'
-    //                 },
-    //                 {
-    //                     name: 'PITVN MediaFire',
-    //                     url: 'https://www.mediafire.com/folder/pitvn_office2021_pro',
-    //                     icon: 'fas fa-download'
-    //                 }
-    //             ]
-    //         },
-    //         {
-    //             name: 'Office 2021 Home & Business',
-    //             size: '2.5 GB',
-    //             links: [
-    //                 {
-    //                     name: 'PITVN Google Drive',
-    //                     url: 'https://drive.google.com/drive/folders/1example_windows_aio',
-    //                     icon: 'fab fa-google-drive'
-    //                 },
-    //                 {
-    //                     name: 'PITVN Google Drive',
-    //                     url: 'https://drive.google.com/drive/folders/1office2021_home_business',
-    //                     icon: 'fab fa-google-drive'
-    //                 }
-    //             ]
-    //         },
-    //         {
-    //             name: 'Office 2021 Standard',
-    //             size: '2.3 GB',
-    //             links: [
-    //                 {
-    //                     name: 'PITVN Google Drive',
-    //                     url: 'https://drive.google.com/drive/folders/1example_windows_aio',
-    //                     icon: 'fab fa-google-drive'
-    //                 }
-    //             ]
-    //         }
-    //     ]
-    // },
-    // {
-    //     id: 'office2019',
-    //     name: 'Microsoft Office 2019',
-    //     description: 'Bộ ứng dụng văn phòng Office 2019 từ Quang Huy Blog PITVN',
-    //     category: 'office',
-    //     icon: 'fas fa-file-word',
-    //     versions: [
-    //         {
-    //             name: 'Office 2019 Professional Plus',
-    //             size: '2.3 GB',
-    //             links: [
-    //                 {
-    //                     name: 'PITVN Google Drive',
-    //                     url: 'https://drive.google.com/drive/folders/1example_windows_aio',
-    //                     icon: 'fab fa-google-drive'
-    //                 },
-    //                 {
-    //                     name: 'PITVN MediaFire',
-    //                     url: 'https://www.mediafire.com/folder/pitvn_office2019_pro',
-    //                     icon: 'fas fa-download'
-    //                 }
-    //             ]
-    //         },
-    //         {
-    //             name: 'Office 2019 Home & Business',
-    //             size: '2.1 GB',
-    //             links: [
-    //                 {
-    //                     name: 'PITVN Google Drive',
-    //                     url: 'https://drive.google.com/drive/folders/1example_windows_aio',
-    //                     icon: 'fab fa-google-drive'
-    //                 }
-    //             ]
-    //         }
-    //     ]
-    // },
-    // {
-    //     id: 'office365',
-    //     name: 'Microsoft Office 365',
-    //     description: 'Microsoft Office 365 từ Quang Huy Blog PITVN',
-    //     category: 'office',
-    //     icon: 'fas fa-file-word',
-    //     versions: [
-    //         {
-    //             name: 'Office 365 ProPlus',
-    //             size: '2.6 GB',
-    //             links: [
-    //                 {
-    //                     name: 'PITVN Google Drive',
-    //                     url: 'https://drive.google.com/drive/folders/1example_windows_aio',
-    //                     icon: 'fab fa-google-drive'
-    //                 },
-    //                 {
-    //                     name: 'PITVN Google Drive',
-    //                     url: 'https://drive.google.com/drive/folders/1example',
-    //                     icon: 'fab fa-google-drive'
-    //                 }
-    //             ]
-    //         }
-    //     ]
-    // },
-    // {
-    //     id: 'office2016',
-    //     name: 'Microsoft Office 2016',
-    //     description: 'Bộ ứng dụng văn phòng Office 2016 từ Quang Huy Blog PITVN',
-    //     category: 'office',
-    //     icon: 'fas fa-file-word',
-    //     versions: [
-    //         {
-    //             name: 'Office 2016 Professional Plus',
-    //             size: '2.0 GB',
-    //             links: [
-    //                 {
-    //                     name: 'PITVN Google Drive',
-    //                     url: 'https://drive.google.com/drive/folders/1example_windows_aio',
-    //                     icon: 'fab fa-google-drive'
-    //                 }
-    //             ]
-    //         }
-    //     ]
-    // },
+    {
+        id: 'office2021',
+        name: 'Microsoft Office 2021',
+        description: 'Bộ ứng dụng văn phòng Office 2021 từ PITVN Community Resources',
+        category: 'office',
+        icon: 'fas fa-file-word',
+        versions: [
+            {
+                name: 'Office 2021 retailMSDN, 05 October 2021 for Window',
+                size: '2.8 GB',
+                editions: [
+                    //Professional Plus 
+                    {
+                        name: 'Professional Plus',
+                        description: '64bit & 32bit',
+                        size: '4.8 GB',
+                        links: [
+                            {
+                                name: 'PITVN Google Drive',
+                                url: '',
+                                icon: 'fab fa-google-drive'
+                            },
+                            {
+                                name: 'PITVN Google Drive',
+                                url: '',
+                                icon: 'fab fa-google-drive'
+                            },
+                            {
+                                name: 'PITVN Onedrive',
+                                url: '',
+                                icon: 'fa-solid fa-cloud'
+                            },
+                            {
+                                name: 'PITVN Onedrive',
+                                url: '',
+                                icon: 'fa-solid fa-cloud'
+                            }
+
+                        ]
+                    },
+                    //Outlook 
+                    {
+                        name: 'Outlook',
+                        description: '64bit & 32bit',
+                        size: '4.8 GB',
+                        links: [
+                            {
+                                name: 'PITVN Google Drive',
+                                url: '',
+                                icon: 'fab fa-google-drive'
+                            },
+                            {
+                                name: 'PITVN Google Drive',
+                                url: '',
+                                icon: 'fab fa-google-drive'
+                            },
+                            {
+                                name: 'PITVN Onedrive',
+                                url: '',
+                                icon: 'fa-solid fa-cloud'
+                            },
+                            {
+                                name: 'PITVN Onedrive',
+                                url: '',
+                                icon: 'fa-solid fa-cloud'
+                            }
+
+                        ]
+                    },
+                    //Outlook - tiếng Việt 
+                    {
+                        name: 'Outlook - tiếng Việt',
+                        description: '64bit & 32bit',
+                        size: '4.8 GB',
+                        links: [
+                            {
+                                name: 'PITVN Google Drive',
+                                url: '',
+                                icon: 'fab fa-google-drive'
+                            },
+                            {
+                                name: 'PITVN Google Drive',
+                                url: '',
+                                icon: 'fab fa-google-drive'
+                            },
+                            {
+                                name: 'PITVN Onedrive',
+                                url: '',
+                                icon: 'fa-solid fa-cloud'
+                            },
+                            {
+                                name: 'PITVN Onedrive',
+                                url: '',
+                                icon: 'fa-solid fa-cloud'
+                            }
+
+                        ]
+                    },
+                    //Project Professional 
+                    {
+                        name: 'Project Professional',
+                        description: '64bit & 32bit',
+                        size: '4.8 GB',
+                        links: [
+                            {
+                                name: 'PITVN Google Drive',
+                                url: '',
+                                icon: 'fab fa-google-drive'
+                            },
+                            {
+                                name: 'PITVN Google Drive',
+                                url: '',
+                                icon: 'fab fa-google-drive'
+                            },
+                            {
+                                name: 'PITVN Onedrive',
+                                url: '',
+                                icon: 'fa-solid fa-cloud'
+                            },
+                            {
+                                name: 'PITVN Onedrive',
+                                url: '',
+                                icon: 'fa-solid fa-cloud'
+                            }
+
+                        ]
+                    },
+                    //Project Standard 
+                    {
+                        name: 'Project Standard',
+                        description: '64bit & 32bit',
+                        size: '4.8 GB',
+                        links: [
+                            {
+                                name: 'PITVN Google Drive',
+                                url: '',
+                                icon: 'fab fa-google-drive'
+                            },
+                            {
+                                name: 'PITVN Google Drive',
+                                url: '',
+                                icon: 'fab fa-google-drive'
+                            },
+                            {
+                                name: 'PITVN Onedrive',
+                                url: '',
+                                icon: 'fa-solid fa-cloud'
+                            },
+                            {
+                                name: 'PITVN Onedrive',
+                                url: '',
+                                icon: 'fa-solid fa-cloud'
+                            }
+
+                        ]
+                    },
+                    //Visio Professional 
+                    {
+                        name: 'Visio Professional',
+                        description: '64bit & 32bit',
+                        size: '4.8 GB',
+                        links: [
+                            {
+                                name: 'PITVN Google Drive',
+                                url: '',
+                                icon: 'fab fa-google-drive'
+                            },
+                            {
+                                name: 'PITVN Google Drive',
+                                url: '',
+                                icon: 'fab fa-google-drive'
+                            },
+                            {
+                                name: 'PITVN Onedrive',
+                                url: '',
+                                icon: 'fa-solid fa-cloud'
+                            },
+                            {
+                                name: 'PITVN Onedrive',
+                                url: '',
+                                icon: 'fa-solid fa-cloud'
+                            }
+
+                        ]
+                    },
+                    //Visio Standard 
+                    {
+                        name: 'Visio Standard',
+                        description: '64bit & 32bit',
+                        size: '4.8 GB',
+                        links: [
+                            {
+                                name: 'PITVN Google Drive',
+                                url: '',
+                                icon: 'fab fa-google-drive'
+                            },
+                            {
+                                name: 'PITVN Google Drive',
+                                url: '',
+                                icon: 'fab fa-google-drive'
+                            },
+                            {
+                                name: 'PITVN Onedrive',
+                                url: '',
+                                icon: 'fa-solid fa-cloud'
+                            },
+                            {
+                                name: 'PITVN Onedrive',
+                                url: '',
+                                icon: 'fa-solid fa-cloud'
+                            }
+
+                        ]
+                    },  //Professional Plus - tiếng Việt 
+                    {
+                        name: 'Professional Plus - tiếng Việt',
+                        description: '64bit & 32bit',
+                        size: '4.8 GB',
+                        links: [
+                            {
+                                name: 'PITVN Google Drive',
+                                url: '',
+                                icon: 'fab fa-google-drive'
+                            },
+                            {
+                                name: 'PITVN Google Drive',
+                                url: '',
+                                icon: 'fab fa-google-drive'
+                            },
+                            {
+                                name: 'PITVN Onedrive',
+                                url: '',
+                                icon: 'fa-solid fa-cloud'
+                            },
+                            {
+                                name: 'PITVN Onedrive',
+                                url: '',
+                                icon: 'fa-solid fa-cloud'
+                            }
+
+                        ]
+                    },
+
+                    // //Outlook 
+                    // {
+                    //     name: 'Outlook',
+                    //     description: '64bit & 32bit',
+                    //     size: '4.8 GB',
+                    //     links: [
+                    //         {
+                    //             name: 'PITVN Google Drive',
+                    //             url: '',
+                    //             icon: 'fab fa-google-drive'
+                    //         },
+                    //         {
+                    //             name: 'PITVN Google Drive',
+                    //             url: '',
+                    //             icon: 'fab fa-google-drive'
+                    //         },
+                    //         {
+                    //             name: 'PITVN Onedrive',
+                    //             url: '',
+                    //             icon: 'fa-solid fa-cloud'
+                    //         },
+                    //         {
+                    //             name: 'PITVN Onedrive',
+                    //             url: '',
+                    //             icon: 'fa-solid fa-cloud'
+                    //         }
+
+                    //     ]
+                    // }
+                ]
+            }
+        ]
+    },
+    {
+        id: 'office2019',
+        name: 'Microsoft Office 2019',
+        description: 'Bộ ứng dụng văn phòng Office 2019 từ Quang Huy Blog PITVN',
+        category: 'office',
+        icon: 'fas fa-file-word',
+        versions: [
+            {
+                name: 'Office 2019 Professional Plus',
+                size: '2.3 GB',
+                links: [
+                    {
+                        name: 'PITVN Google Drive',
+                        url: 'https://drive.google.com/drive/folders/1example_windows_aio',
+                        icon: 'fab fa-google-drive'
+                    },
+                    {
+                        name: 'PITVN MediaFire',
+                        url: 'https://www.mediafire.com/folder/pitvn_office2019_pro',
+                        icon: 'fas fa-download'
+                    }
+                ]
+            },
+            {
+                name: 'Office 2019 Home & Business',
+                size: '2.1 GB',
+                links: [
+                    {
+                        name: 'PITVN Google Drive',
+                        url: 'https://drive.google.com/drive/folders/1example_windows_aio',
+                        icon: 'fab fa-google-drive'
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 'office365',
+        name: 'Microsoft Office 365',
+        description: 'Microsoft Office 365 từ Quang Huy Blog PITVN',
+        category: 'office',
+        icon: 'fas fa-file-word',
+        versions: [
+            {
+                name: 'Office 365 ProPlus',
+                size: '2.6 GB',
+                links: [
+                    {
+                        name: 'PITVN Google Drive',
+                        url: 'https://drive.google.com/drive/folders/1example_windows_aio',
+                        icon: 'fab fa-google-drive'
+                    },
+                    {
+                        name: 'PITVN Google Drive',
+                        url: 'https://drive.google.com/drive/folders/1example',
+                        icon: 'fab fa-google-drive'
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 'office2016',
+        name: 'Microsoft Office 2016',
+        description: 'Bộ ứng dụng văn phòng Office 2016 từ Quang Huy Blog PITVN',
+        category: 'office',
+        icon: 'fas fa-file-word',
+        versions: [
+            {
+                name: 'Office 2016 Professional Plus',
+                size: '2.0 GB',
+                links: [
+                    {
+                        name: 'PITVN Google Drive',
+                        url: 'https://drive.google.com/drive/folders/1example_windows_aio',
+                        icon: 'fab fa-google-drive'
+                    }
+                ]
+            }
+        ]
+    },
 
     // // Phần mềm đồ họa - PITVN Community Resources
     // {
