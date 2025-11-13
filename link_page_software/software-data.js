@@ -1917,283 +1917,561 @@ const softwareData = [
 
     //____________________________MICROSOFT OFFICE_____________________________________
 
-    // Microsoft Office - PITVN Community Resources
-    {
-        id: 'office2021',
-        name: 'Microsoft Office 2021',
-        description: 'Bộ ứng dụng văn phòng Office 2021 từ PITVN Community Resources',
-        category: 'office',
-        icon: 'fas fa-file-word',
-        versions: [
-            {
-                name: 'Office 2021 retailMSDN, 05 October 2021 for Window',
-                size: '2.8 GB',
-                editions: [
-                    //Professional Plus 
-                    {
-                        name: 'Professional Plus',
-                        description: '64bit & 32bit',
-                        size: '4.8 GB',
-                        links: [
-                            {
-                                name: 'PITVN Google Drive',
-                                url: '',
-                                icon: 'fab fa-google-drive'
-                            },
-                            {
-                                name: 'PITVN Google Drive',
-                                url: '',
-                                icon: 'fab fa-google-drive'
-                            },
-                            {
-                                name: 'PITVN Onedrive',
-                                url: '',
-                                icon: 'fa-solid fa-cloud'
-                            },
-                            {
-                                name: 'PITVN Onedrive',
-                                url: '',
-                                icon: 'fa-solid fa-cloud'
-                            }
+    // Microsoft Office - 365
+    // {
+    //     id: 'office365',
+    //     name: 'Microsoft Office 365',
+    //     description: 'Microsoft Office 365 từ Quang Huy Blog PITVN',
+    //     category: 'office',
+    //     icon: 'fas fa-file-word',
+    //     versions: [
+    //         {
+    //             name: 'Office 2021 retailMSDN, 05 October 2021 for Window',
+    //             size: '2.8 GB',
+    //             editions: [
+    //                 //Professional Plus 
+    //                 {
+    //                     name: 'Professional Plus',
+    //                     description: '64bit & 32bit',
+    //                     size: '4.8 GB',
+    //                     links: [
+    //                         {
+    //                             name: 'PITVN Google Drive',
+    //                             url: '',
+    //                             icon: 'fab fa-google-drive'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Google Drive',
+    //                             url: '',
+    //                             icon: 'fab fa-google-drive'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Onedrive',
+    //                             url: '',
+    //                             icon: 'fa-solid fa-cloud'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Onedrive',
+    //                             url: '',
+    //                             icon: 'fa-solid fa-cloud'
+    //                         }
 
-                        ]
-                    },
-                    //Outlook 
-                    {
-                        name: 'Outlook',
-                        description: '64bit & 32bit',
-                        size: '4.8 GB',
-                        links: [
-                            {
-                                name: 'PITVN Google Drive',
-                                url: '',
-                                icon: 'fab fa-google-drive'
-                            },
-                            {
-                                name: 'PITVN Google Drive',
-                                url: '',
-                                icon: 'fab fa-google-drive'
-                            },
-                            {
-                                name: 'PITVN Onedrive',
-                                url: '',
-                                icon: 'fa-solid fa-cloud'
-                            },
-                            {
-                                name: 'PITVN Onedrive',
-                                url: '',
-                                icon: 'fa-solid fa-cloud'
-                            }
+    //                     ]
+    //                 },
+    //                 //Outlook 
+    //                 {
+    //                     name: 'Outlook',
+    //                     description: '64bit & 32bit',
+    //                     size: '4.8 GB',
+    //                     links: [
+    //                         {
+    //                             name: 'PITVN Google Drive',
+    //                             url: '',
+    //                             icon: 'fab fa-google-drive'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Google Drive',
+    //                             url: '',
+    //                             icon: 'fab fa-google-drive'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Onedrive',
+    //                             url: '',
+    //                             icon: 'fa-solid fa-cloud'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Onedrive',
+    //                             url: '',
+    //                             icon: 'fa-solid fa-cloud'
+    //                         }
 
-                        ]
-                    },
-                    //Outlook - tiếng Việt 
-                    {
-                        name: 'Outlook - tiếng Việt',
-                        description: '64bit & 32bit',
-                        size: '4.8 GB',
-                        links: [
-                            {
-                                name: 'PITVN Google Drive',
-                                url: '',
-                                icon: 'fab fa-google-drive'
-                            },
-                            {
-                                name: 'PITVN Google Drive',
-                                url: '',
-                                icon: 'fab fa-google-drive'
-                            },
-                            {
-                                name: 'PITVN Onedrive',
-                                url: '',
-                                icon: 'fa-solid fa-cloud'
-                            },
-                            {
-                                name: 'PITVN Onedrive',
-                                url: '',
-                                icon: 'fa-solid fa-cloud'
-                            }
+    //                     ]
+    //                 },
+    //                 //Outlook - tiếng Việt 
+    //                 {
+    //                     name: 'Outlook - tiếng Việt',
+    //                     description: '64bit & 32bit',
+    //                     size: '4.8 GB',
+    //                     links: [
+    //                         {
+    //                             name: 'PITVN Google Drive',
+    //                             url: '',
+    //                             icon: 'fab fa-google-drive'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Google Drive',
+    //                             url: '',
+    //                             icon: 'fab fa-google-drive'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Onedrive',
+    //                             url: '',
+    //                             icon: 'fa-solid fa-cloud'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Onedrive',
+    //                             url: '',
+    //                             icon: 'fa-solid fa-cloud'
+    //                         }
 
-                        ]
-                    },
-                    //Project Professional 
-                    {
-                        name: 'Project Professional',
-                        description: '64bit & 32bit',
-                        size: '4.8 GB',
-                        links: [
-                            {
-                                name: 'PITVN Google Drive',
-                                url: '',
-                                icon: 'fab fa-google-drive'
-                            },
-                            {
-                                name: 'PITVN Google Drive',
-                                url: '',
-                                icon: 'fab fa-google-drive'
-                            },
-                            {
-                                name: 'PITVN Onedrive',
-                                url: '',
-                                icon: 'fa-solid fa-cloud'
-                            },
-                            {
-                                name: 'PITVN Onedrive',
-                                url: '',
-                                icon: 'fa-solid fa-cloud'
-                            }
+    //                     ]
+    //                 },
+    //                 //Project Professional 
+    //                 {
+    //                     name: 'Project Professional',
+    //                     description: '64bit & 32bit',
+    //                     size: '4.8 GB',
+    //                     links: [
+    //                         {
+    //                             name: 'PITVN Google Drive',
+    //                             url: '',
+    //                             icon: 'fab fa-google-drive'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Google Drive',
+    //                             url: '',
+    //                             icon: 'fab fa-google-drive'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Onedrive',
+    //                             url: '',
+    //                             icon: 'fa-solid fa-cloud'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Onedrive',
+    //                             url: '',
+    //                             icon: 'fa-solid fa-cloud'
+    //                         }
 
-                        ]
-                    },
-                    //Project Standard 
-                    {
-                        name: 'Project Standard',
-                        description: '64bit & 32bit',
-                        size: '4.8 GB',
-                        links: [
-                            {
-                                name: 'PITVN Google Drive',
-                                url: '',
-                                icon: 'fab fa-google-drive'
-                            },
-                            {
-                                name: 'PITVN Google Drive',
-                                url: '',
-                                icon: 'fab fa-google-drive'
-                            },
-                            {
-                                name: 'PITVN Onedrive',
-                                url: '',
-                                icon: 'fa-solid fa-cloud'
-                            },
-                            {
-                                name: 'PITVN Onedrive',
-                                url: '',
-                                icon: 'fa-solid fa-cloud'
-                            }
+    //                     ]
+    //                 },
+    //                 //Project Standard 
+    //                 {
+    //                     name: 'Project Standard',
+    //                     description: '64bit & 32bit',
+    //                     size: '4.8 GB',
+    //                     links: [
+    //                         {
+    //                             name: 'PITVN Google Drive',
+    //                             url: '',
+    //                             icon: 'fab fa-google-drive'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Google Drive',
+    //                             url: '',
+    //                             icon: 'fab fa-google-drive'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Onedrive',
+    //                             url: '',
+    //                             icon: 'fa-solid fa-cloud'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Onedrive',
+    //                             url: '',
+    //                             icon: 'fa-solid fa-cloud'
+    //                         }
 
-                        ]
-                    },
-                    //Visio Professional 
-                    {
-                        name: 'Visio Professional',
-                        description: '64bit & 32bit',
-                        size: '4.8 GB',
-                        links: [
-                            {
-                                name: 'PITVN Google Drive',
-                                url: '',
-                                icon: 'fab fa-google-drive'
-                            },
-                            {
-                                name: 'PITVN Google Drive',
-                                url: '',
-                                icon: 'fab fa-google-drive'
-                            },
-                            {
-                                name: 'PITVN Onedrive',
-                                url: '',
-                                icon: 'fa-solid fa-cloud'
-                            },
-                            {
-                                name: 'PITVN Onedrive',
-                                url: '',
-                                icon: 'fa-solid fa-cloud'
-                            }
+    //                     ]
+    //                 },
+    //                 //Visio Professional 
+    //                 {
+    //                     name: 'Visio Professional',
+    //                     description: '64bit & 32bit',
+    //                     size: '4.8 GB',
+    //                     links: [
+    //                         {
+    //                             name: 'PITVN Google Drive',
+    //                             url: '',
+    //                             icon: 'fab fa-google-drive'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Google Drive',
+    //                             url: '',
+    //                             icon: 'fab fa-google-drive'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Onedrive',
+    //                             url: '',
+    //                             icon: 'fa-solid fa-cloud'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Onedrive',
+    //                             url: '',
+    //                             icon: 'fa-solid fa-cloud'
+    //                         }
 
-                        ]
-                    },
-                    //Visio Standard 
-                    {
-                        name: 'Visio Standard',
-                        description: '64bit & 32bit',
-                        size: '4.8 GB',
-                        links: [
-                            {
-                                name: 'PITVN Google Drive',
-                                url: '',
-                                icon: 'fab fa-google-drive'
-                            },
-                            {
-                                name: 'PITVN Google Drive',
-                                url: '',
-                                icon: 'fab fa-google-drive'
-                            },
-                            {
-                                name: 'PITVN Onedrive',
-                                url: '',
-                                icon: 'fa-solid fa-cloud'
-                            },
-                            {
-                                name: 'PITVN Onedrive',
-                                url: '',
-                                icon: 'fa-solid fa-cloud'
-                            }
+    //                     ]
+    //                 },
+    //                 //Visio Standard 
+    //                 {
+    //                     name: 'Visio Standard',
+    //                     description: '64bit & 32bit',
+    //                     size: '4.8 GB',
+    //                     links: [
+    //                         {
+    //                             name: 'PITVN Google Drive',
+    //                             url: '',
+    //                             icon: 'fab fa-google-drive'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Google Drive',
+    //                             url: '',
+    //                             icon: 'fab fa-google-drive'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Onedrive',
+    //                             url: '',
+    //                             icon: 'fa-solid fa-cloud'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Onedrive',
+    //                             url: '',
+    //                             icon: 'fa-solid fa-cloud'
+    //                         }
 
-                        ]
-                    },  //Professional Plus - tiếng Việt 
-                    {
-                        name: 'Professional Plus - tiếng Việt',
-                        description: '64bit & 32bit',
-                        size: '4.8 GB',
-                        links: [
-                            {
-                                name: 'PITVN Google Drive',
-                                url: '',
-                                icon: 'fab fa-google-drive'
-                            },
-                            {
-                                name: 'PITVN Google Drive',
-                                url: '',
-                                icon: 'fab fa-google-drive'
-                            },
-                            {
-                                name: 'PITVN Onedrive',
-                                url: '',
-                                icon: 'fa-solid fa-cloud'
-                            },
-                            {
-                                name: 'PITVN Onedrive',
-                                url: '',
-                                icon: 'fa-solid fa-cloud'
-                            }
+    //                     ]
+    //                 },  //Professional Plus - tiếng Việt 
+    //                 {
+    //                     name: 'Professional Plus - tiếng Việt',
+    //                     description: '64bit & 32bit',
+    //                     size: '4.8 GB',
+    //                     links: [
+    //                         {
+    //                             name: 'PITVN Google Drive',
+    //                             url: '',
+    //                             icon: 'fab fa-google-drive'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Google Drive',
+    //                             url: '',
+    //                             icon: 'fab fa-google-drive'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Onedrive',
+    //                             url: '',
+    //                             icon: 'fa-solid fa-cloud'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Onedrive',
+    //                             url: '',
+    //                             icon: 'fa-solid fa-cloud'
+    //                         }
 
-                        ]
-                    },
+    //                     ]
+    //                 },
 
-                    // //Outlook 
-                    // {
-                    //     name: 'Outlook',
-                    //     description: '64bit & 32bit',
-                    //     size: '4.8 GB',
-                    //     links: [
-                    //         {
-                    //             name: 'PITVN Google Drive',
-                    //             url: '',
-                    //             icon: 'fab fa-google-drive'
-                    //         },
-                    //         {
-                    //             name: 'PITVN Google Drive',
-                    //             url: '',
-                    //             icon: 'fab fa-google-drive'
-                    //         },
-                    //         {
-                    //             name: 'PITVN Onedrive',
-                    //             url: '',
-                    //             icon: 'fa-solid fa-cloud'
-                    //         },
-                    //         {
-                    //             name: 'PITVN Onedrive',
-                    //             url: '',
-                    //             icon: 'fa-solid fa-cloud'
-                    //         }
+    //                 // //Outlook 
+    //                 // {
+    //                 //     name: 'Outlook',
+    //                 //     description: '64bit & 32bit',
+    //                 //     size: '4.8 GB',
+    //                 //     links: [
+    //                 //         {
+    //                 //             name: 'PITVN Google Drive',
+    //                 //             url: '',
+    //                 //             icon: 'fab fa-google-drive'
+    //                 //         },
+    //                 //         {
+    //                 //             name: 'PITVN Google Drive',
+    //                 //             url: '',
+    //                 //             icon: 'fab fa-google-drive'
+    //                 //         },
+    //                 //         {
+    //                 //             name: 'PITVN Onedrive',
+    //                 //             url: '',
+    //                 //             icon: 'fa-solid fa-cloud'
+    //                 //         },
+    //                 //         {
+    //                 //             name: 'PITVN Onedrive',
+    //                 //             url: '',
+    //                 //             icon: 'fa-solid fa-cloud'
+    //                 //         }
 
-                    //     ]
-                    // }
-                ]
-            }
-        ]
-    },
+    //                 //     ]
+    //                 // }
+    //             ]
+    //         }
+    //     ]
+    // },
+    // Microsoft Office - 2024
+    // {
+    //     id: 'office2024',
+    //     name: 'Microsoft Office 2024',
+    //     description: 'Bộ ứng dụng văn phòng Office 2024 từ PITVN Community Resources',
+    //     category: 'office',
+    //     icon: 'fas fa-file-word',
+    //     versions: [
+    //         {
+    //             name: 'Office 2021 retailMSDN, 05 October 2021 for Window',
+    //             size: '2.8 GB',
+    //             editions: [
+    //                 //Professional Plus 
+    //                 {
+    //                     name: 'Professional Plus',
+    //                     description: '64bit & 32bit',
+    //                     size: '4.8 GB',
+    //                     links: [
+    //                         {
+    //                             name: 'PITVN Google Drive',
+    //                             url: '',
+    //                             icon: 'fab fa-google-drive'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Google Drive',
+    //                             url: '',
+    //                             icon: 'fab fa-google-drive'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Onedrive',
+    //                             url: '',
+    //                             icon: 'fa-solid fa-cloud'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Onedrive',
+    //                             url: '',
+    //                             icon: 'fa-solid fa-cloud'
+    //                         }
+
+    //                     ]
+    //                 },
+    //                 //Outlook 
+    //                 {
+    //                     name: 'Outlook',
+    //                     description: '64bit & 32bit',
+    //                     size: '4.8 GB',
+    //                     links: [
+    //                         {
+    //                             name: 'PITVN Google Drive',
+    //                             url: '',
+    //                             icon: 'fab fa-google-drive'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Google Drive',
+    //                             url: '',
+    //                             icon: 'fab fa-google-drive'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Onedrive',
+    //                             url: '',
+    //                             icon: 'fa-solid fa-cloud'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Onedrive',
+    //                             url: '',
+    //                             icon: 'fa-solid fa-cloud'
+    //                         }
+
+    //                     ]
+    //                 },
+    //                 //Outlook - tiếng Việt 
+    //                 {
+    //                     name: 'Outlook - tiếng Việt',
+    //                     description: '64bit & 32bit',
+    //                     size: '4.8 GB',
+    //                     links: [
+    //                         {
+    //                             name: 'PITVN Google Drive',
+    //                             url: '',
+    //                             icon: 'fab fa-google-drive'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Google Drive',
+    //                             url: '',
+    //                             icon: 'fab fa-google-drive'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Onedrive',
+    //                             url: '',
+    //                             icon: 'fa-solid fa-cloud'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Onedrive',
+    //                             url: '',
+    //                             icon: 'fa-solid fa-cloud'
+    //                         }
+
+    //                     ]
+    //                 },
+    //                 //Project Professional 
+    //                 {
+    //                     name: 'Project Professional',
+    //                     description: '64bit & 32bit',
+    //                     size: '4.8 GB',
+    //                     links: [
+    //                         {
+    //                             name: 'PITVN Google Drive',
+    //                             url: '',
+    //                             icon: 'fab fa-google-drive'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Google Drive',
+    //                             url: '',
+    //                             icon: 'fab fa-google-drive'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Onedrive',
+    //                             url: '',
+    //                             icon: 'fa-solid fa-cloud'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Onedrive',
+    //                             url: '',
+    //                             icon: 'fa-solid fa-cloud'
+    //                         }
+
+    //                     ]
+    //                 },
+    //                 //Project Standard 
+    //                 {
+    //                     name: 'Project Standard',
+    //                     description: '64bit & 32bit',
+    //                     size: '4.8 GB',
+    //                     links: [
+    //                         {
+    //                             name: 'PITVN Google Drive',
+    //                             url: '',
+    //                             icon: 'fab fa-google-drive'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Google Drive',
+    //                             url: '',
+    //                             icon: 'fab fa-google-drive'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Onedrive',
+    //                             url: '',
+    //                             icon: 'fa-solid fa-cloud'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Onedrive',
+    //                             url: '',
+    //                             icon: 'fa-solid fa-cloud'
+    //                         }
+
+    //                     ]
+    //                 },
+    //                 //Visio Professional 
+    //                 {
+    //                     name: 'Visio Professional',
+    //                     description: '64bit & 32bit',
+    //                     size: '4.8 GB',
+    //                     links: [
+    //                         {
+    //                             name: 'PITVN Google Drive',
+    //                             url: '',
+    //                             icon: 'fab fa-google-drive'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Google Drive',
+    //                             url: '',
+    //                             icon: 'fab fa-google-drive'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Onedrive',
+    //                             url: '',
+    //                             icon: 'fa-solid fa-cloud'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Onedrive',
+    //                             url: '',
+    //                             icon: 'fa-solid fa-cloud'
+    //                         }
+
+    //                     ]
+    //                 },
+    //                 //Visio Standard 
+    //                 {
+    //                     name: 'Visio Standard',
+    //                     description: '64bit & 32bit',
+    //                     size: '4.8 GB',
+    //                     links: [
+    //                         {
+    //                             name: 'PITVN Google Drive',
+    //                             url: '',
+    //                             icon: 'fab fa-google-drive'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Google Drive',
+    //                             url: '',
+    //                             icon: 'fab fa-google-drive'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Onedrive',
+    //                             url: '',
+    //                             icon: 'fa-solid fa-cloud'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Onedrive',
+    //                             url: '',
+    //                             icon: 'fa-solid fa-cloud'
+    //                         }
+
+    //                     ]
+    //                 },  //Professional Plus - tiếng Việt 
+    //                 {
+    //                     name: 'Professional Plus - tiếng Việt',
+    //                     description: '64bit & 32bit',
+    //                     size: '4.8 GB',
+    //                     links: [
+    //                         {
+    //                             name: 'PITVN Google Drive',
+    //                             url: '',
+    //                             icon: 'fab fa-google-drive'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Google Drive',
+    //                             url: '',
+    //                             icon: 'fab fa-google-drive'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Onedrive',
+    //                             url: '',
+    //                             icon: 'fa-solid fa-cloud'
+    //                         },
+    //                         {
+    //                             name: 'PITVN Onedrive',
+    //                             url: '',
+    //                             icon: 'fa-solid fa-cloud'
+    //                         }
+
+    //                     ]
+    //                 },
+
+    //                 // //Outlook 
+    //                 // {
+    //                 //     name: 'Outlook',
+    //                 //     description: '64bit & 32bit',
+    //                 //     size: '4.8 GB',
+    //                 //     links: [
+    //                 //         {
+    //                 //             name: 'PITVN Google Drive',
+    //                 //             url: '',
+    //                 //             icon: 'fab fa-google-drive'
+    //                 //         },
+    //                 //         {
+    //                 //             name: 'PITVN Google Drive',
+    //                 //             url: '',
+    //                 //             icon: 'fab fa-google-drive'
+    //                 //         },
+    //                 //         {
+    //                 //             name: 'PITVN Onedrive',
+    //                 //             url: '',
+    //                 //             icon: 'fa-solid fa-cloud'
+    //                 //         },
+    //                 //         {
+    //                 //             name: 'PITVN Onedrive',
+    //                 //             url: '',
+    //                 //             icon: 'fa-solid fa-cloud'
+    //                 //         }
+
+    //                 //     ]
+    //                 // }
+    //             ]
+    //         }
+    //     ]
+    // },
+    // Microsoft Office - 2019
     {
         id: 'office2019',
         name: 'Microsoft Office 2019',
@@ -2202,59 +2480,112 @@ const softwareData = [
         icon: 'fas fa-file-word',
         versions: [
             {
-                name: 'Office 2019 Professional Plus',
+                name: 'Professional Plus',
                 size: '2.3 GB',
                 links: [
                     {
                         name: 'PITVN Google Drive',
-                        url: 'https://drive.google.com/drive/folders/1example_windows_aio',
+                        url: 'https://www.google.com/url?q=https://drive.google.com/file/d/1SqJTlHjwEeh9SJMRFQx8R705kxw0-6dT/view?usp%3Ddrivesdk&sa=D&source=editors&ust=1758038820696727&usg=AOvVaw327Nu2y_Y04wGlvsGPZGO2',
                         icon: 'fab fa-google-drive'
                     },
                     {
-                        name: 'PITVN MediaFire',
-                        url: 'https://www.mediafire.com/folder/pitvn_office2019_pro',
-                        icon: 'fas fa-download'
+                        name: 'PITVN Google Drive',
+                        url: 'https://www.google.com/url?q=https://drive.google.com/file/d/145emQkCASlkcF9GSTnzuRKW6h3YN-KF7/view?usp%3Ddrivesdk&sa=D&source=editors&ust=1758038820696820&usg=AOvVaw3QPY-gtXcIDEdci11zXZ-G',
+                        icon: 'fab fa-google-drive'
+                    },
+                    {
+                        name: 'PITVN Onedrive',
+                        url: 'https://www.google.com/url?q=https://glennsferryschools-my.sharepoint.com/:u:/g/personal/billgates_glennsferryschools_onmicrosoft_com/ESjFioti6CdJquKMYEpUwewBd_ePrWc0uimSi_l5lZxrJA&sa=D&source=editors&ust=1758038820696914&usg=AOvVaw3ddOgRHehDwqVMeZF5Qx9h',
+                        icon: 'fa-solid fa-cloud'
+                    },
+                    {
+                        name: 'PITVN Onedrive',
+                        url: 'https://www.google.com/url?q=https://icedubai-my.sharepoint.com/:u:/g/personal/billgates_icedubai_onmicrosoft_com/EcptjUhGWWlDpZVINRopyT4BFe6qp5XlsrtoXxS6JhUg7Q&sa=D&source=editors&ust=1758038820697003&usg=AOvVaw19wxzqn-UaOEfkxHqg8gJY',
+                        icon: 'fa-solid fa-cloud'
                     }
                 ]
             },
             {
-                name: 'Office 2019 Home & Business',
-                size: '2.1 GB',
+                name: 'Project Professional',
+                size: '2.3 GB',
                 links: [
                     {
                         name: 'PITVN Google Drive',
-                        url: 'https://drive.google.com/drive/folders/1example_windows_aio',
-                        icon: 'fab fa-google-drive'
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        id: 'office365',
-        name: 'Microsoft Office 365',
-        description: 'Microsoft Office 365 từ Quang Huy Blog PITVN',
-        category: 'office',
-        icon: 'fas fa-file-word',
-        versions: [
-            {
-                name: 'Office 365 ProPlus',
-                size: '2.6 GB',
-                links: [
-                    {
-                        name: 'PITVN Google Drive',
-                        url: 'https://drive.google.com/drive/folders/1example_windows_aio',
+                        url: 'https://www.google.com/url?q=https://drive.google.com/file/d/1aNxjjCqt6QyEZQxkwbnXQ8lZ54PCc1Zi/view?usp%3Ddrivesdk&sa=D&source=editors&ust=1758038820697865&usg=AOvVaw3xUMv4CXPKpRkcQZ0i8Khn',
                         icon: 'fab fa-google-drive'
                     },
                     {
                         name: 'PITVN Google Drive',
-                        url: 'https://drive.google.com/drive/folders/1example',
+                        url: 'https://www.google.com/url?q=https://drive.google.com/file/d/1XW_WhGrQOId5TdQ4p2hFsfTWH1Ex5Kt7/view?usp%3Ddrivesdk&sa=D&source=editors&ust=1758038820697969&usg=AOvVaw1X1Chnw8CyCpKEfKGp6xxJ',
                         icon: 'fab fa-google-drive'
+                    },
+                    {
+                        name: 'PITVN Onedrive',
+                        url: 'https://www.google.com/url?q=https://glennsferryschools-my.sharepoint.com/:u:/g/personal/billgates_glennsferryschools_onmicrosoft_com/EVmDCzjnaEBNm5eHkyPBUWsB5U9ptvMzDg6TMUNpQWYYiA&sa=D&source=editors&ust=1758038820698050&usg=AOvVaw1q53kpcf2C1c7OM-7siuQs',
+                        icon: 'fa-solid fa-cloud'
+                    },
+                    {
+                        name: 'PITVN Onedrive',
+                        url: 'https://www.google.com/url?q=https://icedubai-my.sharepoint.com/:u:/g/personal/billgates_icedubai_onmicrosoft_com/EQQhrlxlbU9CqyiX05y29U8Bcd1chDkeK8FbQ_rBw-GJHA&sa=D&source=editors&ust=1758038820698142&usg=AOvVaw0X1sZnut7MSk4GMFR2HqoY',
+                        icon: 'fa-solid fa-cloud'
                     }
                 ]
-            }
+            },
+            {
+                name: 'Visio Professional',
+                size: '2.3 GB',
+                links: [
+                    {
+                        name: 'PITVN Google Drive',
+                        url: 'https://www.google.com/url?q=https://drive.google.com/file/d/1OhuFlPOj3mM_g-Rvmwv1u9Dh2-KXGtGe/view?usp%3Ddrivesdk&sa=D&source=editors&ust=1758038820698988&usg=AOvVaw05K9VJBQNKKdHst43WZLeB',
+                        icon: 'fab fa-google-drive'
+                    },
+                    {
+                        name: 'PITVN Google Drive',
+                        url: 'https://www.google.com/url?q=https://drive.google.com/file/d/1PWfjkoAUd55zbcgfLJK8GIQ0MzUsQVdF/view?usp%3Ddrivesdk&sa=D&source=editors&ust=1758038820699075&usg=AOvVaw3n1Lb6h5htF-BsfQ6L45AX',
+                        icon: 'fab fa-google-drive'
+                    },
+                    {
+                        name: 'PITVN Onedrive',
+                        url: 'https://www.google.com/url?q=https://glennsferryschools-my.sharepoint.com/:u:/g/personal/billgates_glennsferryschools_onmicrosoft_com/EUVdzU8EyjNEr91NTlPWYhoB0NLLPOSA0FDiPJYJrYe9aA&sa=D&source=editors&ust=1758038820699155&usg=AOvVaw1YKSX7Z9zbiFK9w91cI5yH',
+                        icon: 'fa-solid fa-cloud'
+                    },
+                    {
+                        name: 'PITVN Onedrive',
+                        url: 'https://www.google.com/url?q=https://icedubai-my.sharepoint.com/:u:/g/personal/billgates_icedubai_onmicrosoft_com/EWfHVJnzYWBAjvE27U7X3rMBr8sxPQb_oZUS45OM1tCOlg&sa=D&source=editors&ust=1758038820699242&usg=AOvVaw3J59MNkMY5jxWjSwtrX8a9',
+                        icon: 'fa-solid fa-cloud'
+                    }
+                ]
+            },
+            {
+                name: 'Professional Plus - Tiếng Việt',
+                size: '2.3 GB',
+                links: [
+                    {
+                        name: 'PITVN Google Drive',
+                        url: 'https://www.google.com/url?q=https://drive.google.com/file/d/1dTP52BsflpdK9r0L6PLwcmSBgMhc9C82/view?usp%3Ddrivesdk&sa=D&source=editors&ust=1758038820700169&usg=AOvVaw2ANB0S_D4BU24FVCLKbvHz',
+                        icon: 'fab fa-google-drive'
+                    },
+                    {
+                        name: 'PITVN Google Drive',
+                        url: 'https://www.google.com/url?q=https://drive.google.com/file/d/1vBGWXmp8Y7xaYCaIfFa7R0QMxlX-aZoe/view?usp%3Ddrivesdk&sa=D&source=editors&ust=1758038820700253&usg=AOvVaw1-brKIa5lGKGi29xBi8UM5',
+                        icon: 'fab fa-google-drive'
+                    },
+                    {
+                        name: 'PITVN Onedrive',
+                        url: 'https://www.google.com/url?q=https://glennsferryschools-my.sharepoint.com/:u:/g/personal/billgates_glennsferryschools_onmicrosoft_com/EaQGr31-E09Fo2jJOOeSWs4BB4OHXJUV4ufrQef0meDa2w&sa=D&source=editors&ust=1758038820700332&usg=AOvVaw0-EWMs37_rk5FGUiBBjKiP',
+                        icon: 'fa-solid fa-cloud'
+                    },
+                    {
+                        name: 'PITVN Onedrive',
+                        url: 'https://www.google.com/url?q=https://icedubai-my.sharepoint.com/:u:/g/personal/billgates_icedubai_onmicrosoft_com/EU_s6KHCC6pDj3yZhaGRH3cBc6bB27gboUpFxlL0rbYfOQ&sa=D&source=editors&ust=1758038820700424&usg=AOvVaw3ws6QZGBOvSNm_GNgx7qwq',
+                        icon: 'fa-solid fa-cloud'
+                    }
+                ]
+            },
         ]
     },
+    // Microsoft Office - 2016
     {
         id: 'office2016',
         name: 'Microsoft Office 2016',
@@ -2263,18 +2594,132 @@ const softwareData = [
         icon: 'fas fa-file-word',
         versions: [
             {
-                name: 'Office 2016 Professional Plus',
-                size: '2.0 GB',
+                name: 'Professional Plus',
+                size: '2.3 GB',
                 links: [
                     {
                         name: 'PITVN Google Drive',
-                        url: 'https://drive.google.com/drive/folders/1example_windows_aio',
+                        url: 'https://www.google.com/url?q=https://drive.google.com/file/d/1ndn-EtY1ZVGginCbgfL3g2LlE_8XZtqs/view?usp%3Ddrivesdk&sa=D&source=editors&ust=1758038820706337&usg=AOvVaw1p-fQ6YdGX0iRzLXUMI8zi',
                         icon: 'fab fa-google-drive'
+                    },
+                    {
+                        name: 'PITVN Google Drive',
+                        url: 'https://www.google.com/url?q=https://drive.google.com/file/d/1giJ43Yr7g5_scGQiRRRtvHHYFmZxFL0m/view?usp%3Ddrivesdk&sa=D&source=editors&ust=1758038820706416&usg=AOvVaw13z_b0CB8JpyhVJyyxW-rw',
+                        icon: 'fab fa-google-drive'
+                    },
+                    {
+                        name: 'PITVN Onedrive',
+                        url: 'https://www.google.com/url?q=https://glennsferryschools-my.sharepoint.com/:u:/g/personal/billgates_glennsferryschools_onmicrosoft_com/Edrqw3jHZEhJhiMtp6TyH8wBCZyRz4t-qP8EPzDeU6QrKA&sa=D&source=editors&ust=1758038820706488&usg=AOvVaw2vpafLqxjaqU0LiB_QvD7Y',
+                        icon: 'fa-solid fa-cloud'
+                    },
+                    {
+                        name: 'PITVN Onedrive',
+                        url: 'https://www.google.com/url?q=https://icedubai-my.sharepoint.com/:u:/g/personal/billgates_icedubai_onmicrosoft_com/ES3yaXu9ostCqr0BoTeGResBNn37ymQgP9j9BrWYflc7XA&sa=D&source=editors&ust=1758038820706567&usg=AOvVaw3QJKudNb1HSX7SFzBA3w2I',
+                        icon: 'fa-solid fa-cloud'
                     }
                 ]
-            }
+            },
+            {
+                name: 'Project Professional',
+                size: '2.3 GB',
+                links: [
+                   {
+                        name: 'PITVN Google Drive',
+                        url: 'https://www.google.com/url?q=https://drive.google.com/file/d/1tCUQZcbccz05ao-D1mDqmGAo9ZOdjHQO/view?usp%3Ddrivesdk&sa=D&source=editors&ust=1758038820707305&usg=AOvVaw31t_6cl7Kjvve_fK5REreX',
+                        icon: 'fab fa-google-drive'
+                    },
+                    {
+                        name: 'PITVN Google Drive',
+                        url: 'https://www.google.com/url?q=https://drive.google.com/file/d/1ktQvrQJOs08mN_eRnYMkRkU-X9-YWjho/view?usp%3Ddrivesdk&sa=D&source=editors&ust=1758038820707389&usg=AOvVaw1jycTh2CbiqAw4r2D6XYQs',
+                        icon: 'fab fa-google-drive'
+                    },
+                    {
+                        name: 'PITVN Onedrive',
+                        url: 'https://www.google.com/url?q=https://glennsferryschools-my.sharepoint.com/:u:/g/personal/billgates_glennsferryschools_onmicrosoft_com/EcRBqBQmi1ZPjqtoZf9B_xYBc2jWCAYwyF2mSFDqJUR6LA&sa=D&source=editors&ust=1758038820707466&usg=AOvVaw265tojtUvPW7AGdw7XuZMe',
+                        icon: 'fa-solid fa-cloud'
+                    },
+                    {
+                        name: 'PITVN Onedrive',
+                        url: 'https://www.google.com/url?q=https://icedubai-my.sharepoint.com/:u:/g/personal/billgates_icedubai_onmicrosoft_com/ESt74vQd0RpMgYLZVUx9o8gB_4rdlOo8d9LRCPgPuhoJDA&sa=D&source=editors&ust=1758038820707545&usg=AOvVaw0QYm-eovvBG_4ZwopJYR1K',
+                        icon: 'fa-solid fa-cloud'
+                    }
+                ]
+            },
+            {
+                name: 'Visio Professional',
+                size: '2.3 GB',
+                links: [
+                    {
+                        name: 'PITVN Google Drive',
+                        url: 'https://www.google.com/url?q=https://drive.google.com/file/d/1Jcd5vQhY000szd4nEcEC2vyHVnx56TeU/view?usp%3Ddrivesdk&sa=D&source=editors&ust=1758038820708318&usg=AOvVaw1EpvsFhYo0dkK1PZ8XmHk7',
+                        icon: 'fab fa-google-drive'
+                    },
+                    {
+                        name: 'PITVN Google Drive',
+                        url: 'https://www.google.com/url?q=https://drive.google.com/file/d/10BXpPV1uUb4ySFQ7UruxbKv2DtxLSED2/view?usp%3Ddrivesdk&sa=D&source=editors&ust=1758038820708398&usg=AOvVaw1N0Pr-CUz82cRcimD2PILt',
+                        icon: 'fab fa-google-drive'
+                    },
+                    {
+                        name: 'PITVN Onedrive',
+                        url: 'https://www.google.com/url?q=https://glennsferryschools-my.sharepoint.com/:u:/g/personal/billgates_glennsferryschools_onmicrosoft_com/EQiy6XSEHT1Ir3Uc_bY_GUABWpxBIJDamQ9CsBX8lOB15w&sa=D&source=editors&ust=1758038820708475&usg=AOvVaw07b0fnNkuavb72lq1RiliY',
+                        icon: 'fa-solid fa-cloud'
+                    },
+                    {
+                        name: 'PITVN Onedrive',
+                        url: 'https://www.google.com/url?q=https://icedubai-my.sharepoint.com/:u:/g/personal/billgates_icedubai_onmicrosoft_com/EQxxTiv8eYxLji64oUwDCAYBObqgMeyvKH1-QbcfmfMQvA&sa=D&source=editors&ust=1758038820708553&usg=AOvVaw31PrwNahZOAXlX8Ftg1d3v',
+                        icon: 'fa-solid fa-cloud'
+                    }
+                ]
+            },
+            {
+                name: 'Professional Plus - Tiếng Việt',
+                size: '2.3 GB',
+                links: [
+                    {
+                        name: 'PITVN Google Drive',
+                        url: 'https://www.google.com/url?q=https://drive.google.com/file/d/1Fvoo7Ozjz5fypCu0nDdY0gG_1Wt78P3W/view?usp%3Ddrivesdk&sa=D&source=editors&ust=1758038820709337&usg=AOvVaw0zZWzBbPZbC-uID7S_oeTU',
+                        icon: 'fab fa-google-drive'
+                    },
+                    {
+                        name: 'PITVN Google Drive',
+                        url: 'https://www.google.com/url?q=https://drive.google.com/file/d/1Z4tr_7dnHCY1EeaeUimQBHbhqro-7gVT/view?usp%3Ddrivesdk&sa=D&source=editors&ust=1758038820709406&usg=AOvVaw3u21HBDNjWNj6XKWeo2xr1',
+                        icon: 'fab fa-google-drive'
+                    },
+                    {
+                        name: 'PITVN Onedrive',
+                        url: 'https://www.google.com/url?q=https://glennsferryschools-my.sharepoint.com/:u:/g/personal/billgates_glennsferryschools_onmicrosoft_com/ESiE8L-54RNHgfJmwzymZbwBJwOEhSUpigudAN9Yy2qk-w&sa=D&source=editors&ust=1758038820709472&usg=AOvVaw3hm3OtvmNBK8--zLxHw0kC',
+                        icon: 'fa-solid fa-cloud'
+                    },
+                    {
+                        name: 'PITVN Onedrive',
+                        url: 'https://www.google.com/url?q=https://icedubai-my.sharepoint.com/:u:/g/personal/billgates_icedubai_onmicrosoft_com/EdXSn7CgpfJJsPydb4JVEEkBinaksxNDsbVVO857hfUB2w&sa=D&source=editors&ust=1758038820709542&usg=AOvVaw0-rEK0KmhnExheSClcxZ0i',
+                        icon: 'fa-solid fa-cloud'
+                    }
+                ]
+            },
         ]
     },
+    // // Microsoft Office - for MACOS
+    // {
+    //     id: 'officeMacOs',
+    //     name: 'Microsoft Office for Mac',
+    //     description: 'Bộ ứng dụng văn phòng Office 2013 từ Quang Huy Blog PITVN',
+    //     category: 'office',
+    //     icon: 'fas fa-file-word',
+    //     versions: [
+    //         {
+    //             name: 'Office 2016 Professional Plus',
+    //             size: '2.0 GB',
+    //             links: [
+    //                 {
+    //                     name: 'PITVN Google Drive',
+    //                     url: '',
+    //                     icon: 'fab fa-google-drive'
+    //                 }
+    //             ]
+    //         }
+    //     ]
+    // },
 
     // // Phần mềm đồ họa - PITVN Community Resources
     // {
